@@ -1,3 +1,4 @@
+<?php
 add_action( 'wpcf7_before_send_mail',
   function( $contact_form, $abort, $submission ) {
 	  
@@ -14,3 +15,4 @@ add_action( 'wpcf7_before_send_mail',
   },
   10, 3
 );
+?>
