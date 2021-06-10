@@ -7,6 +7,7 @@ add_action( 'wpcf7_before_send_mail',
     // Buscamos los datos guardados
     $nombre = $submission->get_posted_data( 'nombre' ); 
     $apellido = $submission->get_posted_data( 'apellidos' );
+	  $array = ($_POST['nombre-array']);
     
     //Identificamos el ID del formulario
   if($contact_form_id== 9911){
